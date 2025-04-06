@@ -128961,7 +128961,7 @@ A.MH.prototype={
 Z(){return new A.ads(B.H)}}
 A.ads.prototype={
 F(a){var s=null
-return A.eK(s,s,A.cJ(A.aW(A.a([A.aq(s,A.apj("lab.png",s,200,200),B.E,s,s,s,s,s,s,s,s,s,s,s),A.a2(s,20,s),A.p("Welcome to SS Pathology Lab",s,s,s,A.ac(s,s,B.aH,s,s,s,s,s,s,s,s,20,s,s,B.ar,s,s,!0,s,s,s,s,s,s,s,s),s,s)],t.p),B.K,B.dn,B.G,B.S),s,s),!1,s)}}
+return A.eK(s,s,A.cJ(A.aW(A.a([A.aq(s,A.apj("assets/lab.png",s,200,200),B.E,s,s,s,s,s,s,s,s,s,s,s),A.a2(s,20,s),A.p("Welcome to SS Pathology Lab",s,s,s,A.ac(s,s,B.aH,s,s,s,s,s,s,s,s,20,s,s,B.ar,s,s,!0,s,s,s,s,s,s,s,s),s,s)],t.p),B.K,B.dn,B.G,B.S),s,s),!1,s)}}
 A.wR.prototype={
 Z(){var s=null,r=t.N,q=t.A
 return new A.Qs(A.jt(0,s,s),A.a([A.ai(["review","\u092c\u093f\u0932\u0915\u0941\u0932 \u0938\u0939\u0940 \u092a\u0930\u093f\u0923\u093e\u092e \u0914\u0930 \u0936\u093e\u0928\u0926\u093e\u0930 \u0917\u094d\u0930\u093e\u0939\u0915 \u0938\u0947\u0935\u093e\u0964","name","\u0930\u093e\u0939\u0941\u0932 \u0936\u0930\u094d\u092e\u093e"],r,r),A.ai(["review","Very accurate results and great customer service.","name","Rahul Desai"],r,r),A.ai(["review","\u0909\u0924\u094d\u0915\u0943\u0937\u094d\u091f \u0938\u0947\u0935\u093e \u0914\u0930 \u0938\u092e\u093e\u0927\u093e\u0928\u0964 \u092c\u093f\u0932\u094d\u0915\u0941\u0932 \u092d\u0930\u094b\u0938\u0947\u092e\u0902\u0926!","name","\u0905\u0928\u093f\u0924\u093e \u0915\u0941\u092e\u093e\u0930\u0940"],r,r),A.ai(["review","Excellent service and support. Highly recommend.","name","Santosh Sharma"],r,r)],t.m3),new A.bq(s,q),new A.bq(s,q),new A.bq(s,q),new A.bq(s,q),new A.bq(s,q),B.H)}}
@@ -129038,7 +129038,7 @@ o=A.ad(22)
 n=t.p
 o=A.d8(A.aW(A.a([r,B.nK,q,B.nK,p,B.er,A.bA(A.ea(!1,B.aTZ,m,m,B.b7,m,m,m,m,new A.aTc(),m,A.Gz(m,m,B.fC,m,m,m,m,m,m,m,m,m,B.Xd,m,new A.cL(A.ad(8),B.W),m,m,m,m)),m,m,m,new A.cL(o,B.W))],n),B.b1,B.I,B.G,B.S),1)
 p=A.ad(12)
-return A.aq(m,A.aW(A.a([l,B.nL,A.aq(m,A.aW(A.a([A.aT(A.a([o,B.Ow,A.d8(A.aq(m,A.aZV(A.ad(12),A.apj("landing/Map.jpg",B.kd,m,m),B.da),B.E,m,m,new A.bn(B.w8,m,m,p,m,m,m,B.an),m,270,m,m,m,m,m,m),1)],n),B.K,B.I,B.G,m)],n),B.K,B.I,B.G,B.S),B.E,m,m,new A.bn(B.A,m,m,s,B.aQf,m,m,B.an),m,m,m,m,B.a6,m,m,k.a.a*0.6)],n),B.K,B.I,B.G,B.S),B.E,m,m,B.Rl,m,m,this.Q,m,B.iD,m,m,m)},
+return A.aq(m,A.aW(A.a([l,B.nL,A.aq(m,A.aW(A.a([A.aT(A.a([o,B.Ow,A.d8(A.aq(m,A.aZV(A.ad(12),A.apj("landing/Map.png",B.kd,m,m),B.da),B.E,m,m,new A.bn(B.w8,m,m,p,m,m,m,B.an),m,270,m,m,m,m,m,m),1)],n),B.K,B.I,B.G,m)],n),B.K,B.I,B.G,B.S),B.E,m,m,new A.bn(B.A,m,m,s,B.aQf,m,m,B.an),m,m,m,m,B.a6,m,m,k.a.a*0.6)],n),B.K,B.I,B.G,B.S),B.E,m,m,B.Rl,m,m,this.Q,m,B.iD,m,m,m)},
 ajD(){var s,r,q=null,p=t.p,o=A.a([B.b4b,B.bQ],p)
 for(s=["Home","About Us","Services","Contact"],r=0;r<4;++r)o.push(new A.af(B.WU,A.p(s[r],q,q,q,B.jL,q,q),q))
 return A.aq(q,A.aW(A.a([A.mv(B.jV,A.a([B.VE,B.Ox,A.aW(o,B.b1,B.I,B.G,B.S),B.Ox,B.VF],p),B.dM,B.c7,20,40),B.Wr,B.b4i],p),B.K,B.I,B.G,B.S),B.E,B.U1,q,q,q,q,q,q,B.X9,q,q,q)},
@@ -135265,7 +135265,7 @@ B.ko=new A.u(4290624957)
 B.R0=new A.an(B.ko,0,B.P,-1)
 B.R2=new A.e9(B.W,B.W,B.R0,B.W)
 B.Rm=new A.bn(null,null,B.R2,null,null,null,null,B.an)
-B.Ql=new A.ue("landing/landing_bg.jpg",null,null)
+B.Ql=new A.ue("landing/landing_bg.png",null,null)
 B.kd=new A.TV(2,"cover")
 B.ek=new A.A_(3,"noRepeat")
 B.eF=new A.uV(1,"low")
@@ -135816,7 +135816,7 @@ B.wv=new A.uz(2,"initializedServices")
 B.W3=new A.uz(3,"initializingUi")
 B.W4=new A.uz(4,"initialized")
 B.W5=new A.ajo(1,"traversalOrder")
-B.Qk=new A.ue("landing/shop.jpg",null,null)
+B.Qk=new A.ue("landing/shop.png",null,null)
 B.W6=new A.uB(B.Qk,null,B.kd)
 B.eC=new A.Va(0,"background")
 B.ww=new A.Vb(0,"background")
