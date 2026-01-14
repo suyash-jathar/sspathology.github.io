@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "17455a72a46bb8b5528b9a65b3b681e2",
+const RESOURCES = {"flutter_bootstrap.js": "c2d45155341db1c5fb71e846be2c14fd",
 "version.json": "732ddb0ad9aeb6a2632585c05985f30c",
 "index.html": "2b5c5a8436f037bba0a5beccc9ea4496",
 "/": "2b5c5a8436f037bba0a5beccc9ea4496",
@@ -45,7 +45,7 @@ const RESOURCES = {"flutter_bootstrap.js": "17455a72a46bb8b5528b9a65b3b681e2",
 "assets/assets/sachin_sign.png": "93e91f360c4d35d9af6d07d14c8ac559",
 "assets/assets/bill_logo.png": "92b7bf12a1ef796686a05c01098f779b",
 "assets/assets/logo.png": "ccf0ebaca88e9ef087de45cc92b54af6",
-"assets/assets/new_pdf_bg.png": "a7d1d5f30a36e905053fd705c771caaa",
+"assets/assets/new_pdf_bg.png": "ac4e6fb4643703b4b09392e82f6c6946",
 "assets/assets/dr_sign.png": "f28408cbd6ea2bafbb419af47d5c6f4e",
 "assets/assets/pdf_sign.png": "ce42998bb19644d75a681b2a5e5ac6db",
 "assets/assets/fonts/OpenSans.ttf": "78609089d3dad36318ae0190321e6f3e",
