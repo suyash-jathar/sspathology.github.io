@@ -3,11 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "c2ce57ea8f96f914b0dc271a41eb24df",
+const RESOURCES = {"flutter_bootstrap.js": "11a0587407ded3e0e2919db9001543a7",
 "version.json": "732ddb0ad9aeb6a2632585c05985f30c",
 "index.html": "b7b80e5c44cf4351469b50e050f13c12",
 "/": "b7b80e5c44cf4351469b50e050f13c12",
-"main.dart.js": "1f82fa629deed36316e18198090ed1ac",
+"main.dart.js": "a9a90f8f8a2c63f2bf243080c0420a23",
 "flutter.js": "888483df48293866f9f41d3d9274a779",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -26,7 +26,7 @@ const RESOURCES = {"flutter_bootstrap.js": "c2ce57ea8f96f914b0dc271a41eb24df",
 "assets/packages/im_stepper/assets/me.jpg": "487511e754834bdf2e6771376d59707e",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "assets/AssetManifest.bin": "407cde4cdebf31192ae4904977d3af6f",
-"assets/fonts/MaterialIcons-Regular.otf": "be67344131eca3952103e57b82a1517d",
+"assets/fonts/MaterialIcons-Regular.otf": "fe4b008f3b8227f75a23add44b8729d2",
 "assets/assets/landing/landing_bg.png": "4afa4945e6b31cd3321fd57145dc5a2a",
 "assets/assets/landing/horizontal/Weekend_offer.png": "bf357ac06b982706301be4cf7036f5c1",
 "assets/assets/landing/horizontal/Gym.png": "332d77f1e48e7630308878baaad19c85",
