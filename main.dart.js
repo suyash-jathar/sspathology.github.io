@@ -46003,7 +46003,9 @@ this.b=b},
 Ie:function Ie(a){this.a=a},
 aD2:function aD2(){var _=this
 _.d=!0
-_.c=_.a=_.y=_.x=_.w=_.r=_.f=_.e=null},
+_.y=_.x=_.w=_.r=_.f=_.e=null
+_.z="new_pdf_bg.png"
+_.c=_.a=null},
 bJ4:function bJ4(a){this.a=a},
 bJ5:function bJ5(a){this.a=a},
 AA:function AA(a){this.a=a},
@@ -51877,6 +51879,7 @@ bYK(a,b,c){var s,r=c==null?"":c,q=B.o.b8(r.toLowerCase())
 r=a==null?"":a
 s=B.o.b8(r.toLowerCase())
 if(q==="ss_panjim"||s==="ss_panjim")return"new_pdf_Panjim.png"
+if(q==="ss_belgavi"||s==="ss_belgavi")return"new_pdf_Belgavi.png"
 return"new_pdf_bg.png"},
 cqy(a){switch(a.a){case 0:return B.zv
 case 2:return B.Xj
@@ -177661,9 +177664,11 @@ return A.A($async$I3,r)},
 zb(){var s=0,r=A.B(t.H),q=this,p,o
 var $async$zb=A.x(function(a,b){if(a===1)return A.y(b,r)
 for(;;)switch(s){case 0:p=q.f
+p=A.bYK(p==null?null:p.a.r,null,null)
+q.z=p
 o=A
 s=2
-return A.q(q.CI(A.bYK(p==null?null:p.a.r,null,null)),$async$zb)
+return A.q(q.CI(p),$async$zb)
 case 2:q.r=o.lA(b)
 o=A
 s=3
@@ -177704,22 +177709,24 @@ A.bJ4.prototype={
 $0(){return this.a.d=!1},
 $S:0}
 A.bJ5.prototype={
-$1(a){var s,r,q,p,o,n,m=null,l=this.a,k=l.f,j=k.a,i=l.r
-i.toString
-s=l.w
+$1(a){var s,r,q,p,o,n,m,l=null,k=this.a,j=k.f,i=j.a,h=k.r
+h.toString
+s=k.w
 s.toString
-r=l.x
+r=k.x
 r.toString
-l=l.y
-l.toString
-q=k.c
-p=k.b
-o=k.d
-o=o==null?m:B.j.k(o)
-if(o==null)o=""
-n=k.e
-k=k.f
-return A.bNc(A.Ni(u.B,i,m,r,m,l,a,!1,!0,o,k==null?"":k,"",n,q,p,s,j,m))},
+q=k.y
+q.toString
+p=j.c
+o=j.b
+n=j.d
+n=n==null?l:B.j.k(n)
+if(n==null)n=""
+m=j.e
+j=j.f
+if(j==null)j=""
+k=k.z
+return A.bNc(A.Ni(u.B,h,l,r,l,q,a,k==="new_pdf_Panjim.png"||k==="new_pdf_Belgavi.png",!0,n,j,"",m,p,o,s,i,l))},
 $S:72}
 A.AA.prototype={
 a7(){var s,r,q,p,o,n,m,l,k=null,j=$.aO(),i=t.Wo
@@ -181061,8 +181068,8 @@ case 2:return A.y(o.at(-1),r)}})
 return A.A($async$Q6,r)},
 CG(a,b,c){return this.aQZ(a,b,c)},
 b0W(a,b){return this.CG(a,b,!0)},
-aQZ(a,b,c){var s=0,r=A.B(t.D),q,p=this,o,n,m,l,k,j,i,h,g,f,e
-var $async$CG=A.x(function(d,a0){if(d===1)return A.y(a0,r)
+aQZ(a,b,c){var s=0,r=A.B(t.D),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d
+var $async$CG=A.x(function(a0,a1){if(a0===1)return A.y(a1,r)
 for(;;)switch(s){case 0:s=p.e==null||p.f==null||p.r==null||p.w==null?3:4
 break
 case 3:s=5
@@ -181084,16 +181091,17 @@ g=k.fy.gj(0)
 f=k.fr.gj(0)
 e=k.go.gj(0)
 k=k.k3.gj(0)
+d=p.x
 s=6
-return A.q(A.w2(A.csE(),A.Ni(j,o,null,m,null,l,a,p.x==="new_pdf_Panjim.png",c,g,e,k,f,i,h,n,b,null),null,t.uk,t.D),$async$CG)
-case 6:q=a0
+return A.q(A.w2(A.csE(),A.Ni(j,o,null,m,null,l,a,d==="new_pdf_Panjim.png"||d==="new_pdf_Belgavi.png",c,g,e,k,f,i,h,n,b,null),null,t.uk,t.D),$async$CG)
+case 6:q=a1
 s=1
 break
 case 1:return A.z(q,r)}})
 return A.A($async$CG,r)},
 GU(a,b){return this.aQU(a,b)},
-aQU(a,b){var s=0,r=A.B(t.D),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d
-var $async$GU=A.x(function(c,a0){if(c===1)return A.y(a0,r)
+aQU(a,b){var s=0,r=A.B(t.D),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c
+var $async$GU=A.x(function(a0,a1){if(a0===1)return A.y(a1,r)
 for(;;)switch(s){case 0:s=p.e==null||p.f==null||p.r==null||p.w==null?3:4
 break
 case 3:s=5
@@ -181115,54 +181123,56 @@ g=k.fy.gj(0)
 f=k.fr.gj(0)
 e=k.go.gj(0)
 k=k.k3.gj(0)
-d=A.Ni(j,o,null,m,null,l,a,p.x==="new_pdf_Panjim.png",!0,g,e,k,f,i,h,n,b,null)
+d=p.x
+c=A.Ni(j,o,null,m,null,l,a,d==="new_pdf_Panjim.png"||d==="new_pdf_Belgavi.png",!0,g,e,k,f,i,h,n,b,null)
 A.kK("DEBUG _generateAllInOnePdf: allTestsInOne=true, testsPerPage=1")
 s=6
-return A.q(A.w2(A.csF(),new A.Ju(d,!0,1),null,t.a6,t.D),$async$GU)
-case 6:q=a0
+return A.q(A.w2(A.csF(),new A.Ju(c,!0,1),null,t.a6,t.D),$async$GU)
+case 6:q=a1
 s=1
 break
 case 1:return A.z(q,r)}})
 return A.A($async$GU,r)},
-L(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e="dd_MMM_yyyy"
-if(g.y){s=g.d
+L(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d="dd_MMM_yyyy"
+if(f.y){s=f.d
 r=s.CW
 if(r==null)r=s.cy
-if(r!=null&&g.e!=null&&g.f!=null&&g.r!=null&&g.w!=null){q=g.e
+if(r!=null&&f.e!=null&&f.f!=null&&f.r!=null&&f.w!=null){q=f.e
 q.toString
-p=g.f
+p=f.f
 p.toString
-o=g.r
+o=f.r
 o.toString
-n=g.w
+n=f.w
 n.toString
 m=s.ok.ax.gj(0)
-m=m==null?f:m.gee().gfR()
+m=m==null?e:m.gee().gfR()
 l=s.id.gj(0)
 k=s.dx.gj(0)
 j=s.fy.gj(0)
 i=s.fr.gj(0)
 h=s.go.gj(0)
 s=s.k3.gj(0)
-return new A.NV(r,A.Ni(m,q,f,o,f,n,B.dK,g.x==="new_pdf_Panjim.png",!0,j,h,s,i,l,k,p,r,f),f,g.e,new A.aZx(g),f)}}s=g.d
+g=f.x
+return new A.NV(r,A.Ni(m,q,e,o,e,n,B.dK,g==="new_pdf_Panjim.png"||g==="new_pdf_Belgavi.png",!0,j,h,s,i,l,k,p,r,e),e,f.e,new A.aZx(f),e)}}s=f.d
 r=s.CW
-if((r==null?s.cy:r)==null)return A.fd(f,B.t,A.bI(A.li(f,A.T(255,104,196,197),f,f,f,f,f,f,f,f),f,f),f,f,!1,f,f,f)
-q=A.j("Report Generated",f,f,f,f,f,f,f,f)
-q=A.kO(f,!0,B.t,f,!0,f,f,A.c9(f,f,f,A.aa(B.pI,f,f,f),f,f,new A.aZy(g,a),f,f,f,f,f),q,f)
+if((r==null?s.cy:r)==null)return A.fd(e,B.t,A.bI(A.li(e,A.T(255,104,196,197),e,e,e,e,e,e,e,e),e,e),e,e,!1,e,e,e)
+q=A.j("Report Generated",e,e,e,e,e,e,e,e)
+q=A.kO(e,!0,B.t,e,!0,e,e,A.c9(e,e,e,A.aa(B.pI,e,e,e),e,e,new A.aZy(f,a),e,e,e,e,e),q,e)
 p=t.p
-o=A.dN(A.a0(A.a([A.fU(A.aa(B.ahH,f,f,f),A.j("With Header",f,f,f,f,f,f,f,f),new A.aZz(g),f),A.Q(f,f,10),A.fU(A.aa(B.ahI,f,f,f),A.j("Without Header",f,f,f,f,f,f,f,f),new A.aZA(g),f),A.Q(f,f,10),A.fU(A.aa(B.kK,f,f,f),A.j("Report Builder",f,f,f,f,f,f,f,f),new A.aZB(g,a),A.ds(f,f,A.aT(4284335559),f,f,f,f,f,f,B.t,f,f,f,f,f,f,f,f,f,f))],p),B.u,B.dq,B.q,0,f),f,B.T,f,f,f,B.aO)
+o=A.dN(A.a0(A.a([A.fU(A.aa(B.ahH,e,e,e),A.j("With Header",e,e,e,e,e,e,e,e),new A.aZz(f),e),A.Q(e,e,10),A.fU(A.aa(B.ahI,e,e,e),A.j("Without Header",e,e,e,e,e,e,e,e),new A.aZA(f),e),A.Q(e,e,10),A.fU(A.aa(B.kK,e,e,e),A.j("Report Builder",e,e,e,e,e,e,e,e),new A.aZB(f,a),A.ds(e,e,A.aT(4284335559),e,e,e,e,e,e,B.t,e,e,e,e,e,e,e,e,e,e))],p),B.u,B.dq,B.q,0,e),e,B.T,e,e,e,B.aO)
 s=s.dx
 n=s.gj(0)
-m=A.ia(e).dn(new A.cS(Date.now(),0,!1))
-m=A.AN(A.a([],p),!0,!0,new A.aZC(g),!1,!1,!1,82,f,f,350,"SSPathology_"+n+"_"+m+".pdf",!0)
+m=A.ia(d).dn(new A.cS(Date.now(),0,!1))
+m=A.AN(A.a([],p),!0,!0,new A.aZC(f),!1,!1,!1,82,e,e,350,"SSPathology_"+n+"_"+m+".pdf",!0)
 n=s.gj(0)
-l=A.ia(e).dn(new A.cS(Date.now(),0,!1))
-l=A.AN(A.a([],p),!0,!0,new A.aZD(g),!1,!1,!1,82,f,f,350,"SSPathology_"+n+"_"+l+".pdf",!0)
+l=A.ia(d).dn(new A.cS(Date.now(),0,!1))
+l=A.AN(A.a([],p),!0,!0,new A.aZD(f),!1,!1,!1,82,e,e,350,"SSPathology_"+n+"_"+l+".pdf",!0)
 s=s.gj(0)
-n=A.ia(e).dn(new A.cS(Date.now(),0,!1))
-n=A.bRh(A.a([m,l,A.AN(A.a([],p),!0,!0,new A.aZE(g),!1,!1,!1,82,f,new A.eo("allinone_true_1",t.kK),350,"SSPathology_AllInOne_"+s+"_"+n+".pdf",!0)],p),B.V,g.Q,B.T,B.fL)
+n=A.ia(d).dn(new A.cS(Date.now(),0,!1))
+n=A.bRh(A.a([m,l,A.AN(A.a([],p),!0,!0,new A.aZE(f),!1,!1,!1,82,e,new A.eo("allinone_true_1",t.kK),350,"SSPathology_AllInOne_"+s+"_"+n+".pdf",!0)],p),B.V,f.Q,B.T,B.fL)
 s=A.E(5)
-return A.fd(q,B.t,A.S(A.a([new A.an(B.a9O,o,f),A.ai(new A.ew(B.cB,f,B.ch,B.V,A.a([n,A.t6(20,new A.an(B.bV,A.R(f,A.S(A.a([A.R(f,new A.an(B.bV,A.eT(!1,f,!0,A.a0(A.a([A.aa(B.Gf,B.t,f,f),A.j(" Share on WhatsApp",f,f,f,f,A.D(f,f,B.t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f,f)],p),B.u,B.r,B.q,0,f),f,!0,f,f,f,f,f,f,f,f,f,f,f,new A.aZF(g),f,f,f,f,f,f,f),f),B.v,f,f,new A.ab(B.ax,f,f,s,f,f,f,B.I),f,f,f,f,f,f,f,f),A.Q(f,10,f)],p),B.u,B.jx,B.q,0,B.y),B.v,f,f,f,f,150,f,f,f,f,f,f),f),f,f,f,20,f,f)],p),f),1)],p),B.u,B.r,B.q,0,B.y),f,f,!1,f,f,f)},
+return A.fd(q,B.t,A.S(A.a([new A.an(B.a9O,o,e),A.ai(new A.ew(B.cB,e,B.ch,B.V,A.a([n,A.t6(20,new A.an(B.bV,A.R(e,A.S(A.a([A.R(e,new A.an(B.bV,A.eT(!1,e,!0,A.a0(A.a([A.aa(B.Gf,B.t,e,e),A.j(" Share on WhatsApp",e,e,e,e,A.D(e,e,B.t,e,e,e,e,e,e,e,e,e,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e)],p),B.u,B.r,B.q,0,e),e,!0,e,e,e,e,e,e,e,e,e,e,e,new A.aZF(f),e,e,e,e,e,e,e),e),B.v,e,e,new A.ab(B.ax,e,e,s,e,e,e,B.I),e,e,e,e,e,e,e,e),A.Q(e,10,e)],p),B.u,B.jx,B.q,0,B.y),B.v,e,e,e,e,150,e,e,e,e,e,e),e),e,e,e,20,e,e)],p),e),1)],p),B.u,B.r,B.q,0,B.y),e,e,!1,e,e,e)},
 jM(a){return this.bmp(a)},
 bmp(a){var s=0,r=A.B(t.D),q,p
 var $async$jM=A.x(function(b,c){if(b===1)return A.y(c,r)
